@@ -1,0 +1,24 @@
+# Secrets
+.key
+*.token
+agent_tokens.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Run directories (launch.py creates these as siblings, but guard anyway)
+*_[0-9][0-9][0-9][0-9]_[0-9][0-9][0-9][0-9]/
